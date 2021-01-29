@@ -7,9 +7,9 @@
 // TODO Votre code ici.
 $content = file_get_contents('lire.txt');
 if($content !== false){
-    echo $content;
+    echo "<div>".$content."</div>";
 }
-echo "<br><br>";
+echo "<br>";
 
 /**
  * 3. Faites la même chose à l'aide d'une boucle et de la fonction fgets(), récupérez les lignes du fichier une à une.
